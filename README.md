@@ -77,6 +77,9 @@ I used bar chart to visualize sales by country. And according to the data, Ugand
 ![alt text](image-1.png)
 
 # Data mining 
+Generated synthetic data using numpy, and handled the missing values 
+![alt text](<Screenshot (159).png>)
+
 
 
 
