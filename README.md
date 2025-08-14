@@ -19,6 +19,8 @@ CustomerDim had; CustomerID, Name, Location, Gender, Age
 TimeDim had; Date, Month, Quarter, Year
 SalesFact had; ProductID, CustomerID, TimeID, Sales Amount, Quantity
 
+![alt text](image-2.png)
+
 # Data generation 
 Using python, I created synthetic data for each table 
 This is the output 
@@ -63,6 +65,18 @@ Customer Summary:
 
 I loaded the data into SQLITE using sqlite3 and connected the data with retail_dw.db
 Then I did full ETL
+
+# OLAP QUERIES
+Did three OLAP queries; roll up, drill down and slice. 
+In roll up I calculated total sales by country and quarter. It revealed that Uganda, Zambia and Botswana has the highest sales.
+Drill down; Sales details for a specific country where I used South Africa
+Slice; Did total sales for electronic category 
+
+I used bar chart to visualize sales by country. And according to the data, Uganda had the highest sales amount followed by Zambia while South Africa had the least sales amount.
+![alt text](image-1.png)
+
+# Data mining 
+
 
 
 
