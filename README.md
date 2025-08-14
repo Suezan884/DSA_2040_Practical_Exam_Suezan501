@@ -21,7 +21,8 @@ SalesFact had; ProductID, CustomerID, TimeID, Sales Amount, Quantity
 
 # Data generation 
 Using python, I created synthetic data for each table 
-This is the output 
+This is the output
+
 Synthetic data generated:
    InvoiceNo StockCode Description  Quantity InvoiceDate  UnitPrice  \
 0  INV770487      P002  Smartphone         2  2024-04-18      74.41   
