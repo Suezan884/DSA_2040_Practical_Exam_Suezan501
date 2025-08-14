@@ -77,8 +77,26 @@ I used bar chart to visualize sales by country. And according to the data, Ugand
 ![alt text](image-1.png)
 
 # Data mining 
+# Data processing and exploration 
 Generated synthetic data using numpy, and handled the missing values 
 ![alt text](<Screenshot (159).png>)
+Computed summary statistic 
+
+
+Summary statistics:
+        sepal length  sepal width  petal length  petal width     species
+count    150.000000   150.000000    150.000000   150.000000  150.000000
+mean       5.829097     3.087655      3.794590     1.231140    1.000000
+std        0.764470     0.516098      1.839219     0.854412    0.819232
+min        4.338785     1.927000      0.228414    -0.688868    0.000000
+25%        5.120275     2.676704      1.631143     0.573194    0.000000
+50%        5.828393     3.058947      4.594370     1.354638    1.000000
+75%        6.426243     3.403860      5.233814     1.888265    2.000000
+max        7.421594     4.601595      6.876917     3.015485    2.000000
+
+Did visualization using correlation heatmap, pair plot and boxplot
+
+![alt text](image-4.png)
 
 
 
