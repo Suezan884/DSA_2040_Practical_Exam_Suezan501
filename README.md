@@ -19,7 +19,7 @@ CustomerDim had; CustomerID, Name, Location, Gender, Age
 TimeDim had; Date, Month, Quarter, Year
 SalesFact had; ProductID, CustomerID, TimeID, Sales Amount, Quantity
 
-![alt text](image-2.png)
+![alt text](image-3.png)
 
 # Data generation 
 Using python, I created synthetic data for each table 
