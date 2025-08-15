@@ -122,9 +122,11 @@ Adjusted Rand Index (k=3): 0.5073
 Experimented k=2 and k=4 and used elbow curve to show it
 ![alt text](elbow_curve.png)
 
+# Association and classification rules
+# Decision tree classifier 
+We trained a Decision Tree Classifier using the Iris dataset to predict flower species based on sepal and petal measurements. The model was evaluated using precision, recall, and F1-score metrics, and visualized for interpretability.
 
-
-
+![alt text](decision_tree.png)
 
 
 
