@@ -10,7 +10,30 @@ OLAP Analysis — Running smart queries to answer business questions
 
 Clustering & Classification — Using machine learning to find patterns
 
-Association Rule Mining — Discovering which products are often bought together 
+Association Rule Mining — Discovering which products are often bought together
+
+# Libraries used
+import pandas as pd
+import random
+from datetime import datetime, timedelta
+import matplotlib.pyplot as plt
+import seaborn as sns
+from sklearn.cluster import KMeans
+from sklearn.metrics import adjusted_rand_score
+from sklearn.preprocessing import StandardScaler
+from sklearn.datasets import load_iris
+from sklearn.model_selection import train_test_split
+from sklearn.tree import DecisionTreeClassifier, plot_tree
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, classification_report
+import numpy as np
+from sklearn.preprocessing import MinMaxScaler
+import sqlite3
+
+
+
+
+
 
 # Designing database (star schema)
 I created three dimension tables ProductDim, CustomerDim and TimeDim and one fact table SalesFact. 
@@ -97,6 +120,7 @@ max        7.421594     4.601595      6.876917     3.015485    2.000000
 Did visualization using correlation heatmap, pair plot and boxplot
 
 ![alt text](correlation_heatmap.png)
+![alt text](pairplot.png)
 
 # Train-test split 
 To prepare the dataset for machine learning, I implemented a function that splits the data into training and testing sets using an 80/20 ratio. This is a standard practice to ensure that models are trained on one portion of the data and evaluated on another, helping to prevent overfitting .
