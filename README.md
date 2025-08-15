@@ -19,7 +19,7 @@ CustomerDim had; CustomerID, Name, Location, Gender, Age
 TimeDim had; Date, Month, Quarter, Year
 SalesFact had; ProductID, CustomerID, TimeID, Sales Amount, Quantity
 
-[alt text](image-2.png)
+![alt text](star_schema.png)
 
 # Data generation 
 Using python, I created synthetic data for each table 
@@ -74,7 +74,7 @@ Drill down; Sales details for a specific country where I used South Africa
 Slice; Did total sales for electronic category 
 
 I used bar chart to visualize sales by country. And according to the data, Uganda had the highest sales amount followed by Zambia while South Africa had the least sales amount.
-![alt text](image-1.png)
+
 
 # Data mining 
 # Data processing and exploration 
@@ -96,7 +96,7 @@ max        7.421594     4.601595      6.876917     3.015485    2.000000
 
 Did visualization using correlation heatmap, pair plot and boxplot
 
-![alt text](image-4.png)
+![alt text](correlation_heatmap.png)
 
 # Train-test split 
 To prepare the dataset for machine learning, I implemented a function that splits the data into training and testing sets using an 80/20 ratio. This is a standard practice to ensure that models are trained on one portion of the data and evaluated on another, helping to prevent overfitting .
