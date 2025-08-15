@@ -117,6 +117,8 @@ I loaded the processed data and then applied k-means with k=3
 
 Adjusted Rand Index (k=3): 0.5073
 
+![alt text](image-6.png)
+
 Experimented k=2 and k=4 and used elbow curve to show it
 ![alt text](image-5.png)
 
