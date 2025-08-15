@@ -19,7 +19,7 @@ CustomerDim had; CustomerID, Name, Location, Gender, Age
 TimeDim had; Date, Month, Quarter, Year
 SalesFact had; ProductID, CustomerID, TimeID, Sales Amount, Quantity
 
-![alt text](image-3.png)
+[alt text](image-2.png)
 
 # Data generation 
 Using python, I created synthetic data for each table 
@@ -118,7 +118,7 @@ I loaded the processed data and then applied k-means with k=3
 Adjusted Rand Index (k=3): 0.5073
 
 Experimented k=2 and k=4 and used elbow curve to show it
-![alt text](image-2.png)
+
 
 
 
