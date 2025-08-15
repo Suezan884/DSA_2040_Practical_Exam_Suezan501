@@ -98,6 +98,20 @@ Did visualization using correlation heatmap, pair plot and boxplot
 
 ![alt text](image-4.png)
 
+# Train-test split 
+To prepare the dataset for machine learning, I implemented a function that splits the data into training and testing sets using an 80/20 ratio. This is a standard practice to ensure that models are trained on one portion of the data and evaluated on another, helping to prevent overfitting .
+80% is used to teach the model patterns in the data.
+20% is used to evaluate how well the model performs on unseen data.
+This split ensures that the model’s performance reflects its ability to generalize beyond the data it was trained on.
+This the output 
+
+Data split complete:
+Train size: 120, Test size: 30
+
+This confirms that the dataset was successfully split into:
+120 training samples
+30 testing samples
+
 
 
 
