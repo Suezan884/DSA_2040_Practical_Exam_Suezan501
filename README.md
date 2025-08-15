@@ -32,9 +32,6 @@ import sqlite3
 
 
 
-
-
-
 # Designing database (star schema)
 I created three dimension tables ProductDim, CustomerDim and TimeDim and one fact table SalesFact. 
 ProductionDim had; ProductID,ProductName,Category,and UnitPrice
@@ -102,7 +99,7 @@ I used bar chart to visualize sales by country. And according to the data, Ugand
 # Data mining 
 # Data processing and exploration 
 Generated synthetic data using numpy, and handled the missing values 
-![alt text](<Screenshot (159).png>)
+![alt text](Screenshot(159).png)
 Computed summary statistic 
 
 
